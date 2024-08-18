@@ -961,14 +961,14 @@ REGISTRATION PAGE */
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    padding-right: 9px;
+    padding-right: 1px;
     color: rgba(53, 54, 54, 0.8);
     font-weight: 500;
 }
 .btn11{
     width: 90%;
     margin: auto;
-    margin-top: 15px ;
+    margin-top: 17px ;
     margin-bottom: 100px;
     background-color: red;
  }
