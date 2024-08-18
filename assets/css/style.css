@@ -728,13 +728,25 @@ content: "";
     font-size: 16px;
 }
 .log .container .btn .btn2{
-    font-family: 'Inter', sans-serif;
     padding: 13px 29px 13px 29px;
     border-radius: 8px;
     border: 2px solid rgba(6, 54, 87, 1);
-    font-weight: 500;
-    font-size: 16px;
     color: rgba(6, 54, 87, 1);
+}
+.log .container .btn .btn1 a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.log .container .btn .btn2 a{
+    text-decoration: none;
+    color: rgba(6, 54, 87, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 footer{
     width: 100%;
