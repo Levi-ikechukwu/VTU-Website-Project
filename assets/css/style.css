@@ -937,3 +937,42 @@ REGISTRATION PAGE */
     color: rgba(53, 54, 54, 0.8);
     font-weight: 500;
 }
+.user1{
+    width: 100%;
+   padding-top: 10px;
+}
+.user1 .container{
+    width: 90%;
+    margin: auto;
+}
+.user1 .container a{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding-right: 9px;
+    color: rgba(53, 54, 54, 0.8);
+    font-weight: 500;
+}
+.btn11{
+    width: 90%;
+    margin: auto;
+    margin-top: 12px ;
+    margin-bottom: 100px;
+    background-color: red;
+ }
+  .btn11 .btn1 a{
+     color: #FFFF;
+     text-decoration: none;
+ }
+  .btn11 .btn1{
+     font-family: 'Inter', sans-serif;
+     padding: 13px 22px 13px 22px;
+     border-radius: 8px;
+     border: none;
+     background-color: rgba(6, 54, 87, 1);
+     color: #FFFF;
+     font-weight: 500;
+     font-size: 16px;
+     position: absolute;
+     right: 20px;
+ }
