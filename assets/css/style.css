@@ -873,6 +873,15 @@ REGISTRATION PAGE */
     padding-bottom: 3px;
     padding-bottom: 7px;
 }
+.form .container .password{
+    position: relative;
+}
+.form .container .password .fa-eye{
+    position: absolute;
+    top: 45px;
+    right: 13px;
+    color: #353636;
+}
 
 .form .container form input{
     font-size: 15px;
