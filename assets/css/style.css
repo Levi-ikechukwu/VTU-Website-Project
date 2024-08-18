@@ -921,3 +921,19 @@ REGISTRATION PAGE */
     position: absolute;
     right: 20px;
 }
+.user{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.user .container{
+    width: 90%;
+    margin: auto;
+}
+.user .container a{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding-right: 3px;
+    color: rgba(53, 54, 54, 0.8);
+    font-weight: 500;
+}
