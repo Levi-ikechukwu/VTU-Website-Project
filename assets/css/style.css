@@ -893,7 +893,8 @@ REGISTRATION PAGE */
    width: 90%;
    margin: auto;
    margin-top: 30px ;
-   margin-bottom: 30px;
+   margin-bottom: 100px;
+   background-color: red;
 }
  .btn222 .btn1 a{
     color: #FFFF;
@@ -909,5 +910,5 @@ REGISTRATION PAGE */
     font-weight: 500;
     font-size: 16px;
     position: absolute;
-    right: 0px;
+    right: 20px;
 }
