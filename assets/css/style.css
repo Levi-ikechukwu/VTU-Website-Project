@@ -1061,3 +1061,153 @@ font-size: 14px;
     font-size: 16px;
     margin-bottom: 24px;
 }
+
+.dash{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+.dash{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #EFE7FF;
+    bottom: 0;
+    overflow-x: auto;
+    display: flex;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.dash .link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    --webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+.dash .link .d{
+    font-size: 20px;
+}
+.dash .active{
+    color: #01426F;
+}
+.dash .link:hover{
+    color: #01426F;
+}
+.body{
+    width: 100%;
+    padding-top: 20px;
+}
+.body .head{
+    width: 90%;
+    margin: auto;
+    
+}
+.body .head .bal{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #01426F;
+    padding: 15px 15px;
+    width: 100%;
+    border-radius: 15px;
+}
+.body .head .bal .amt{
+    width: 47%;
+    /* background-color: yellow; */
+    border-right: 2px solid white;
+    height: 50px;
+}
+.body .head .name{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+
+}
+.body .head .bal .amt .a{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #E6F3FF;
+}
+.body .head .bal .amt .a .fa-eye{
+    padding-left: 10px;
+    color: #E6F3FF;
+    font-size: 15px;
+}
+.body .head .bal .amt .star{
+    color: #E6F3FF;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.body .head .bal .acc{
+    width: 45%;
+    background-color: #284A61;
+    padding: 5px 5px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.body .head .bal .acc .b{
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFBFF;
+}
+
+.body .head .bal .acc .c{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFBFF;
+    padding-top: 4px;
+}
+.body .head .bal .acc .d{
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFBFF;
+    padding-top: 4px;
+    text-decoration: underline;
+}
+.body .head .bal .acc .fa-copy{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    color: #FFFBFF;
+}
+.service{
+    width: 100%;
+    background-color: red;
+    margin-top: 30px;
+}
+.service .container{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+.service .container .parent{
+    background-color: green;
+    width: 100%;
+    gap: 4%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.service .container .parent .a{
+    height: 50px;
+    width: 48%;
+    margin-bottom: 10px;
+}
+.service .container .parent .b{
+    height: 50px;
+    width: 48%;
+    background-color: black;
+    margin-bottom: 10px;
+}
