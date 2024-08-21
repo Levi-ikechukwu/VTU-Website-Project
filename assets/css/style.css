@@ -1188,33 +1188,26 @@ font-size: 14px;
     margin-top: 30px;
 }
 .service .container{
-    width: 90%;
+    width: 95%;
     background-color: white;
     margin: auto;
     height: 90vh;
 }
 .service .container .parent{
     width: 100%;
-    gap: 4%;
+    gap: 2%;
     flex-wrap: wrap;
     display: flex;
 }
-.service .container .parent .a{
-    height: 50px;
-    width: 48%;
-    margin-bottom: 11px;
-}
 .service .container .parent .b{
-    width: 48%;
-    /* background-color: black; */
+    width: 49%;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    height: 120px;
-    width: 48%;
+    height: 150px;
 }
 
 .service .container .parent .b .a{
