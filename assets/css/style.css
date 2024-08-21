@@ -1065,7 +1065,7 @@ font-size: 14px;
 .dash{
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 70px;
 }
 
 .dash{
@@ -1191,7 +1191,7 @@ font-size: 14px;
     width: 95%;
     background-color: white;
     margin: auto;
-    height: 90vh;
+    padding-bottom: 70px;
 }
 .service .container .parent{
     width: 100%;
