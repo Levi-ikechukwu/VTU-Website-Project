@@ -1080,7 +1080,7 @@ font-size: 14px;
     position: fixed;
     width: 100%;
     height: 55px;
-    background-color: #EFE7FF;
+    background-color: #f3f0fa;
     bottom: 0;
     overflow-x: auto;
     display: flex;
@@ -1203,19 +1203,19 @@ font-size: 14px;
 }
 .service .container .parent{
     width: 100%;
-    gap: 2%;
+    gap: 4%;
     flex-wrap: wrap;
     display: flex;
 }
 .service .container .parent .b{
-    width: 49%;
+    width: 48%;
     margin-bottom: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
-    height: 120px;
+    border-radius: 10px;
+    height: 140px;
     position: relative;
 }
 
@@ -1324,19 +1324,19 @@ font-size: 14px;
     font-size: 20px;
 }
 .airtime-pop{
-    height: 250px;
+    height: 350px;
     width: 100%;
     background-color: #07124A;
     position: fixed;
     bottom: 0;
-    border-top-left-radius: 80px;
-    padding-top: 30px;
+    border-top-left-radius: 60px;
+    padding-top: 0px;
     display: none;
     z-index: 11;
 }
 .airtime-pop .container{
     width: 90%;
-    height: 200px;
+    height: 300px;
     margin: auto;
 
 }
@@ -1345,7 +1345,7 @@ font-size: 14px;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .airtime-pop .container .head .fa-angle-left{
     color: white;
@@ -1376,7 +1376,7 @@ font-size: 14px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2%;
+    gap: 4%;
     margin-top: 10px;
 }
 .airtime-pop .container .parent .div1{
@@ -1384,11 +1384,12 @@ font-size: 14px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 49%;
+    width: 48%;
     background-color: white;
     border: 2px solid #707070;
-    height: 120px;
+    height: 160px;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 .airtime-pop .container .parent .div1 a img{
