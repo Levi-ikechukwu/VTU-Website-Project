@@ -1,9 +1,8 @@
 var mobile = document.getElementById("mobile");
 var open = document.getElementById("open");
 var close = document.getElementById("close");
-var airtime = document.getElementById("air");
-var airpop = document.getElementById("airtime-pop");
-var close3 = document.getElementById("cc");
+
+
 
 open.addEventListener("click", function(){
   mobile.style.display = "flex"
