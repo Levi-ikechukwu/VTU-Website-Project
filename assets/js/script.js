@@ -1,8 +1,9 @@
 var mobile = document.getElementById("mobile");
 var open = document.getElementById("open");
 var close = document.getElementById("close");
-
-
+var airtime = document.getElementById("air");
+var airpop = document.getElementById("airtime-pop");
+var close3 = document.getElementById("cc");
 
 open.addEventListener("click", function(){
   mobile.style.display = "flex"
@@ -11,6 +12,8 @@ open.addEventListener("click", function(){
 close.addEventListener("click", function(){
   mobile.style.display = "none"
 })
+
+
 
 
 
@@ -28,3 +31,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
+
+console.log(open);
+
+console.log(close3);
