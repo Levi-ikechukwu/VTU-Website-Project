@@ -1423,16 +1423,16 @@ font-size: 14px;
     width: 90%;
     margin: auto;
     /* position: absolute; */
-    padding-top: 60px;
+    padding-top: 80px;
     margin: auto;
     height: 100vh;
 }
 .data-pop .container .head{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     align-items: center;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     margin: auto;
 }
 .data-pop .container .head .fa-angle-left{
@@ -1465,7 +1465,7 @@ font-size: 14px;
     width: 85%;
     align-items: center;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .data-pop .container .divs a img{
     width: 17%;
