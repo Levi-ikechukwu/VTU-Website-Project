@@ -1414,7 +1414,7 @@ font-size: 14px;
     background-color: #07124A;
     position: fixed;
     bottom: 0;
-    border-top-left-radius: 90px;
+
     /* padding-top: 10px; */
     z-index: 11;
     display: none;
@@ -1423,7 +1423,7 @@ font-size: 14px;
     width: 90%;
     margin: auto;
     /* position: absolute; */
-    padding-top: 30px;
+    padding-top: 60px;
     margin: auto;
     height: 100vh;
 }
