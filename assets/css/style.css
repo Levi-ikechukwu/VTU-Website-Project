@@ -1417,6 +1417,7 @@ font-size: 14px;
     border-top-left-radius: 60px;
     /* padding-top: 10px; */
     z-index: 11;
+    display: none;
 }
 .data-pop .container{
     width: 90%;
