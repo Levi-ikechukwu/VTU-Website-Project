@@ -23,7 +23,10 @@ var b2 = document.getElementById("b2");
 var b3 = document.getElementById("b3");
 var b4 = document.getElementById("b4");
 var b5 = document.getElementById("b5");
-
+var b6 = document.getElementById("b6");
+var bb = document.getElementById("bb");
+var cmp = document.getElementById("cmp");
+var send = document.getElementById("send");
 airtime.addEventListener("click", function(){
     airpop.style.display = "flex"
   })
@@ -82,6 +85,13 @@ airtime.addEventListener("click", function(){
   b5.addEventListener("click", function(){
     val.style.display = "flex"
   })
+  b6.addEventListener("click", function(){
+    val.style.display = "flex"
+  })
   close7.addEventListener("click", function(){
     val.style.display = "none"
   })
+  send.addEventListener("click", function(){
+    cmp.style.display = "flex"
+  })
+
