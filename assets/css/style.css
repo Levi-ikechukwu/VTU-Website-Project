@@ -1414,7 +1414,6 @@ font-size: 14px;
     background-color: #07124A;
     position: fixed;
     bottom: 0;
-
     /* padding-top: 10px; */
     z-index: 11;
     display: none;
@@ -1423,7 +1422,7 @@ font-size: 14px;
     width: 90%;
     margin: auto;
     /* position: absolute; */
-    padding-top: 80px;
+    padding-top: 30px;
     margin: auto;
     height: 100vh;
 }
@@ -1437,13 +1436,13 @@ font-size: 14px;
 }
 .data-pop .container .head .fa-angle-left{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 10px;
     
 }
 .data-pop .container .head .bx-x-circle{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 200;
 }
 .data-pop .container .head p{
@@ -1462,7 +1461,7 @@ font-size: 14px;
 
 .data-pop .container .divs a {
     display: flex;
-    width: 85%;
+    width: 90%;
     align-items: center;
     margin: auto;
     margin-bottom: 35px;
@@ -1474,12 +1473,198 @@ font-size: 14px;
 }
 .data-pop .container .divs a {
     text-decoration: none;
-   
 }
 .data-pop .container .divs a p{
     font-family: 'Inter', sans-serif;
     color: white;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 21px;
     width: 100%;
+}
+
+.select{
+    height: 100vh;
+    width: 100%;
+    background-color: #07124A;
+    position: fixed;
+    bottom: 0;
+    /* padding-top: 10px; */
+    z-index: 13;
+    display: none;
+}
+.select .container{
+    width: 90%;
+    margin: auto;
+    /* position: absolute; */
+    padding-top: 30px;
+    margin: auto;
+    height: 100vh;
+}
+.select .container .head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 35px;
+    margin: auto;
+}
+.select .container .head .fa-angle-left{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    
+}
+.select .container .head .bx-x-circle{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+.select .container .head p{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.select .container .body{
+    /* background-color: red; */
+    width: 95%;
+    margin: auto;
+}
+.select .container .body .p1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.select .container .body .divs{
+    margin-top: 35px;
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+.select .container .body .divs .div1{
+    width: 48%;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.select .container .body .divs .div1 p{
+    font-size: 20px;
+    color: white;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      line-height: 25px;
+}
+
+.val{
+    height: 100vh;
+    width: 100%;
+    background-color: #07124A;
+    position: fixed;
+    bottom: 0;
+    /* padding-top: 10px; */
+    z-index: 13;
+    display: none;
+}
+.val .container{
+    width: 90%;
+    margin: auto;
+    /* position: absolute; */
+    padding-top: 30px;
+    margin: auto;
+    height: 100vh;
+}
+.val .container .head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 35px;
+    margin: auto;
+}
+.val .container .head .fa-angle-left{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    
+}
+.val .container .head .bx-x-circle{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+.val .container .head p{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.val .container .body .p1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.val .container .body form{
+    margin-top: 50px;
+}
+.val .container .body form p{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: rgb(227, 223, 223);
+    padding-bottom: 7px;
+}
+.val .container .body form input{
+    font-size: 17px;
+    padding: 17px 15px;
+   border: 1.5px solid #64656C;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+}
+.val .container .body form input:focus{
+    border-color: #063657;
+}
+.val .container .body form input:active{
+    border: 1px solid  rgba(6, 54, 87, 0.5);
+}
+
+.val .container .body .ben{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.val .container .body .ben .d1 p{
+    font-size: 16px;
+    color: #9EA0B8;
+    font-family: 'Inter', sans-serif;
+}
+.val .container .body .ben .d2 {
+    font-size: 16px;
+    color: #9EA0B8;
+    font-family: 'Inter', sans-serif;
+}
+.val .container .body button{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-top: 80px;
+    background-color: #E6F3FF;
+    border: none;
+}
+.val .container .body button a{
+    text-decoration: none;
+    color: #0C174E;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
