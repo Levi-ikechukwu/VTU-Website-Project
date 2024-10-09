@@ -31,6 +31,5 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-console.log(open);
 
-console.log(close3);
+  AOS.init();
