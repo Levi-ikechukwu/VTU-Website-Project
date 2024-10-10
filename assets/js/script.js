@@ -15,7 +15,6 @@ close.addEventListener("click", function(){
 
 
 
-
 var swiper = new Swiper(".mySwiper", {
   cssMode: true,
   navigation: {
@@ -30,6 +29,3 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-
-
-  AOS.init();

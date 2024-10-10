@@ -95,5 +95,3 @@ airtime.addEventListener("click", function(){
     cmp.style.display = "flex"
   })
 
-
-  AOS.init();

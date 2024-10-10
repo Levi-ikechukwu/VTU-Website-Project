@@ -58,9 +58,6 @@ html{
     background-color: #063657;
     width: 100%;
     /* height: 100vh; */
-    z-index: 500000;
-    transition: 1s ease-in;
-    transform: translateX(100%);
 }
 .header .nav-mobile nav{
    width: 90%;
